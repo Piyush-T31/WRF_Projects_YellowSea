@@ -1,0 +1,43 @@
+taskid: 0 hostname: gra1153
+Quilting with   1 groups of   0 I/O tasks.
+ Ntasks in X            1 , ntasks in Y            2
+*************************************
+Configuring physics suite 'conus'
+
+         mp_physics:      8*     8*
+         cu_physics:      6      6
+      ra_lw_physics:      4*     4*
+      ra_sw_physics:      4*     4*
+     bl_pbl_physics:      5*     5*
+  sf_sfclay_physics:      5*     5*
+ sf_surface_physics:      2      2
+
+(* = option overrides suite setting)
+*************************************
+  Domain # 1: dx =  9000.000 m
+  Domain # 2: dx =  3000.000 m
+WRF V4.4 MODEL
+git commit acb21e7b6800a9db3928bfeceac98aff1e94dd82 21 files changed, 2312 deletions(-)
+ *************************************
+ Parent domain
+ ids,ide,jds,jde            1         150           1         150
+ ims,ime,jms,jme           -4         155          -4          82
+ ips,ipe,jps,jpe            1         150           1          75
+ *************************************
+DYNAMICS OPTION: Eulerian Mass Coordinate
+   alloc_space_field: domain            1 ,             522651948  bytes allocated
+  med_initialdata_input: calling input_input
+   Input data is acceptable to use: wrfinput_d01
+ CURRENT DATE          = 2023-07-07_12:00:00
+ SIMULATION START DATE = 2023-07-06_12:00:00
+ Time in file: 2023-07-06_12:00:00
+ Time on domain: 2023-07-07_12:00:00
+**WARNING** Time in input file not equal to time on domain **WARNING**
+ **WARNING** Trying next time in file wrfinput_d01 ...
+           1  input_wrf: wrf_get_next_time current_date: 2023-07-06_12:00:00 Status =           -4
+   ---- ERROR: Could not find matching time in input file wrfinput_d01
+NOTE:       1 namelist vs input data inconsistencies found.
+-------------- FATAL CALLED ---------------
+FATAL CALLED FROM FILE:  <stdin>  LINE:    1297
+NOTE:  Please check and reset these options
+-------------------------------------------

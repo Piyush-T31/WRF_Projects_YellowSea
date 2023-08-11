@@ -1,0 +1,122 @@
+taskid: 39 hostname: gra793
+ module_io_quilt_old.F        2931 F
+Quilting with   1 groups of   0 I/O tasks.
+ Ntasks in X            8 , ntasks in Y            8
+*************************************
+Configuring physics suite 'conus'
+
+         mp_physics:      8*     8*
+         cu_physics:      6      6
+      ra_lw_physics:      4*     4*
+      ra_sw_physics:      4*     4*
+     bl_pbl_physics:      5*     5*
+  sf_sfclay_physics:      5*     5*
+ sf_surface_physics:      2      2
+
+(* = option overrides suite setting)
+*************************************
+  Domain # 1: dx =  9000.000 m
+  Domain # 2: dx =  3000.000 m
+WRF V4.4 MODEL
+git commit acb21e7b6800a9db3928bfeceac98aff1e94dd82 21 files changed, 2312 deletions(-)
+ *************************************
+ Parent domain
+ ids,ide,jds,jde            1         150           1         150
+ ims,ime,jms,jme          125         155          69         100
+ ips,ipe,jps,jpe          132         150          76          93
+ *************************************
+DYNAMICS OPTION: Eulerian Mass Coordinate
+   alloc_space_field: domain            1 ,              45005412  bytes allocated
+  med_initialdata_input: calling input_input
+   Input data is acceptable to use:
+ CURRENT DATE          = 2023-07-06_12:00:00
+ SIMULATION START DATE = 2023-07-06_12:00:00
+Max map factor in domain 1 =  1.01. Scale the dt in the model accordingly.
+ D01: Time step                              =    45.0000000      (s)
+ D01: Grid Distance                          =    9.00000000      (km)
+ D01: Grid Distance Ratio dt/dx              =    5.00000000      (s/km)
+ D01: Ratio Including Maximum Map Factor     =    5.02918243      (s/km)
+ D01: NML defined reasonable_time_step_ratio =    6.00000000
+ GHG annual values from CAM trace gas file
+ Year =         2023 , Julian day =          187
+ CO2   =    4.2330194965078949E-004  volume mixing ratio
+ N2O   =    3.3444534794261780E-007  volume mixing ratio
+ CH4   =    1.9425131348743858E-006  volume mixing ratio
+ CFC11 =    2.0981431062137334E-010  volume mixing ratio
+ CFC12 =    4.8072227514597398E-010  volume mixing ratio
+INPUT LandUse = "MODIFIED_IGBP_MODIS_NOAH"
+ LANDUSE TYPE = "MODIFIED_IGBP_MODIS_NOAH" FOUND          41  CATEGORIES           2  SEASONS WATER CATEGORY =           17  SNOW CATEGORY =           15
+INITIALIZE THREE Noah LSM RELATED TABLES
+ *************************************
+ Nesting domain
+ ids,ide,jds,jde            1         241           1         241
+ ims,ime,jms,jme          201         246         111         162
+ ips,ipe,jps,jpe          211         241         121         150
+ INTERMEDIATE domain
+ ids,ide,jds,jde           38         123          34         119
+ ims,ime,jms,jme          100         128          66          95
+ ips,ipe,jps,jpe          110         125          76          85
+ *************************************
+d01 2023-07-06_12:00:00  alloc_space_field: domain            2 ,              12166080  bytes allocated
+d01 2023-07-06_12:00:00  alloc_space_field: domain            2 ,              97946172  bytes allocated
+d01 2023-07-06_12:00:00 *** Initializing nest domain # 2 from an input file. ***
+d01 2023-07-06_12:00:00 med_initialdata_input: calling input_input
+d01 2023-07-06_12:00:00  Input data is acceptable to use:
+ GHG annual values from CAM trace gas file
+ Year =         2023 , Julian day =          187
+ CO2   =    4.2330194965078949E-004  volume mixing ratio
+ N2O   =    3.3444534794261780E-007  volume mixing ratio
+ CH4   =    1.9425131348743858E-006  volume mixing ratio
+ CFC11 =    2.0981431062137334E-010  volume mixing ratio
+ CFC12 =    4.8072227514597398E-010  volume mixing ratio
+INPUT LandUse = "MODIFIED_IGBP_MODIS_NOAH"
+ LANDUSE TYPE = "MODIFIED_IGBP_MODIS_NOAH" FOUND          41  CATEGORIES           2  SEASONS WATER CATEGORY =           17  SNOW CATEGORY =           15
+INITIALIZE THREE Noah LSM RELATED TABLES
+ GHG annual values from CAM trace gas file
+ Year =         2023 , Julian day =          187
+ CO2   =    4.2330194965078949E-004  volume mixing ratio
+ N2O   =    3.3444534794261780E-007  volume mixing ratio
+ CH4   =    1.9425131348743858E-006  volume mixing ratio
+ CFC11 =    2.0981431062137334E-010  volume mixing ratio
+ CFC12 =    4.8072227514597398E-010  volume mixing ratio
+INPUT LandUse = "MODIFIED_IGBP_MODIS_NOAH"
+ LANDUSE TYPE = "MODIFIED_IGBP_MODIS_NOAH" FOUND          41  CATEGORIES           2  SEASONS WATER CATEGORY =           17  SNOW CATEGORY =           15
+INITIALIZE THREE Noah LSM RELATED TABLES
+Max map factor in domain 1 =  1.01. Scale the dt in the model accordingly.
+ D01: Time step                              =    45.0000000      (s)
+ D01: Grid Distance                          =    9.00000000      (km)
+ D01: Grid Distance Ratio dt/dx              =    5.00000000      (s/km)
+ D01: Ratio Including Maximum Map Factor     =    5.02918243      (s/km)
+ D01: NML defined reasonable_time_step_ratio =    6.00000000
+ GHG annual values from CAM trace gas file
+ Year =         2023 , Julian day =          187
+ CO2   =    4.2330194965078949E-004  volume mixing ratio
+ N2O   =    3.3444534794261780E-007  volume mixing ratio
+ CH4   =    1.9425131348743858E-006  volume mixing ratio
+ CFC11 =    2.0981431062137334E-010  volume mixing ratio
+ CFC12 =    4.8072227514597398E-010  volume mixing ratio
+INPUT LandUse = "MODIFIED_IGBP_MODIS_NOAH"
+ LANDUSE TYPE = "MODIFIED_IGBP_MODIS_NOAH" FOUND          41  CATEGORIES           2  SEASONS WATER CATEGORY =           17  SNOW CATEGORY =           15
+INITIALIZE THREE Noah LSM RELATED TABLES
+d01 2023-07-06_12:00:00  Input data is acceptable to use:
+ Tile Strategy is not specified. Assuming 1D-Y
+WRF TILE   1 IS    132 IE    150 JS     76 JE     93
+WRF NUMBER OF TILES =   1
+d01 2023-07-06_12:00:00  ----------------------------------------
+d01 2023-07-06_12:00:00  W-DAMPING  BEGINS AT W-COURANT NUMBER =    1.00000000
+d01 2023-07-06_12:00:00  ----------------------------------------
+ Tile Strategy is not specified. Assuming 1D-Y
+WRF TILE   1 IS    211 IE    241 JS    121 JE    150
+WRF NUMBER OF TILES =   1
+d01 2023-07-06_18:00:00  Input data is acceptable to use:
+d01 2023-07-07_00:00:00  Input data is acceptable to use:
+d01 2023-07-07_06:00:00  Input data is acceptable to use:
+d01 2023-07-07_12:00:00  Input data is acceptable to use:
+d01 2023-07-07_18:00:00  Input data is acceptable to use:
+d01 2023-07-08_00:00:00  Input data is acceptable to use:
+d01 2023-07-08_06:00:00  Input data is acceptable to use:
+d01 2023-07-08_12:00:00  Input data is acceptable to use:
+d01 2023-07-08_18:00:00  Input data is acceptable to use:
+d01 2023-07-09_00:00:00  Input data is acceptable to use:
+d01 2023-07-09_06:00:00  Input data is acceptable to use:
+d01 2023-07-09_12:00:00  Input data is acceptable to use:

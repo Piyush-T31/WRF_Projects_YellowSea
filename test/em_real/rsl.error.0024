@@ -1,0 +1,164 @@
+taskid: 24 hostname: gra788
+ module_io_quilt_old.F        2931 F
+Quilting with   1 groups of   0 I/O tasks.
+ Ntasks in X            8 , ntasks in Y            8
+*************************************
+Configuring physics suite 'conus'
+
+         mp_physics:      8*     8*
+         cu_physics:      6      6
+      ra_lw_physics:      4*     4*
+      ra_sw_physics:      4*     4*
+     bl_pbl_physics:      5*     5*
+  sf_sfclay_physics:      5*     5*
+ sf_surface_physics:      2      2
+
+(* = option overrides suite setting)
+*************************************
+  Domain # 1: dx =  9000.000 m
+  Domain # 2: dx =  3000.000 m
+WRF V4.4 MODEL
+git commit acb21e7b6800a9db3928bfeceac98aff1e94dd82 21 files changed, 2312 deletions(-)
+ *************************************
+ Parent domain
+ ids,ide,jds,jde            1         150           1         150
+ ims,ime,jms,jme           -4          26          51          82
+ ips,ipe,jps,jpe            1          19          58          75
+ *************************************
+DYNAMICS OPTION: Eulerian Mass Coordinate
+   alloc_space_field: domain            1 ,              45005412  bytes allocated
+  med_initialdata_input: calling input_input
+   Input data is acceptable to use:
+ CURRENT DATE          = 2023-07-06_12:00:00
+ SIMULATION START DATE = 2023-07-06_12:00:00
+Max map factor in domain 1 =  1.01. Scale the dt in the model accordingly.
+ D01: Time step                              =    45.0000000      (s)
+ D01: Grid Distance                          =    9.00000000      (km)
+ D01: Grid Distance Ratio dt/dx              =    5.00000000      (s/km)
+ D01: Ratio Including Maximum Map Factor     =    5.02918243      (s/km)
+ D01: NML defined reasonable_time_step_ratio =    6.00000000
+ GHG annual values from CAM trace gas file
+ Year =         2023 , Julian day =          187
+ CO2   =    4.2330194965078949E-004  volume mixing ratio
+ N2O   =    3.3444534794261780E-007  volume mixing ratio
+ CH4   =    1.9425131348743858E-006  volume mixing ratio
+ CFC11 =    2.0981431062137334E-010  volume mixing ratio
+ CFC12 =    4.8072227514597398E-010  volume mixing ratio
+INPUT LandUse = "MODIFIED_IGBP_MODIS_NOAH"
+ LANDUSE TYPE = "MODIFIED_IGBP_MODIS_NOAH" FOUND          41  CATEGORIES           2  SEASONS WATER CATEGORY =           17  SNOW CATEGORY =           15
+INITIALIZE THREE Noah LSM RELATED TABLES
+ *************************************
+ Nesting domain
+ ids,ide,jds,jde            1         241           1         241
+ ims,ime,jms,jme           -4          42          81         132
+ ips,ipe,jps,jpe            1          30          91         120
+ INTERMEDIATE domain
+ ids,ide,jds,jde           38         123          34         119
+ ims,ime,jms,jme           33          59          56          85
+ ips,ipe,jps,jpe           36          49          66          75
+ *************************************
+d01 2023-07-06_12:00:00  alloc_space_field: domain            2 ,              11327040  bytes allocated
+d01 2023-07-06_12:00:00  alloc_space_field: domain            2 ,              99887196  bytes allocated
+d01 2023-07-06_12:00:00 *** Initializing nest domain # 2 from an input file. ***
+d01 2023-07-06_12:00:00 med_initialdata_input: calling input_input
+d01 2023-07-06_12:00:00  Input data is acceptable to use:
+ GHG annual values from CAM trace gas file
+ Year =         2023 , Julian day =          187
+ CO2   =    4.2330194965078949E-004  volume mixing ratio
+ N2O   =    3.3444534794261780E-007  volume mixing ratio
+ CH4   =    1.9425131348743858E-006  volume mixing ratio
+ CFC11 =    2.0981431062137334E-010  volume mixing ratio
+ CFC12 =    4.8072227514597398E-010  volume mixing ratio
+INPUT LandUse = "MODIFIED_IGBP_MODIS_NOAH"
+ LANDUSE TYPE = "MODIFIED_IGBP_MODIS_NOAH" FOUND          41  CATEGORIES           2  SEASONS WATER CATEGORY =           17  SNOW CATEGORY =           15
+INITIALIZE THREE Noah LSM RELATED TABLES
+ GHG annual values from CAM trace gas file
+ Year =         2023 , Julian day =          187
+ CO2   =    4.2330194965078949E-004  volume mixing ratio
+ N2O   =    3.3444534794261780E-007  volume mixing ratio
+ CH4   =    1.9425131348743858E-006  volume mixing ratio
+ CFC11 =    2.0981431062137334E-010  volume mixing ratio
+ CFC12 =    4.8072227514597398E-010  volume mixing ratio
+INPUT LandUse = "MODIFIED_IGBP_MODIS_NOAH"
+ LANDUSE TYPE = "MODIFIED_IGBP_MODIS_NOAH" FOUND          41  CATEGORIES           2  SEASONS WATER CATEGORY =           17  SNOW CATEGORY =           15
+INITIALIZE THREE Noah LSM RELATED TABLES
+Max map factor in domain 1 =  1.01. Scale the dt in the model accordingly.
+ D01: Time step                              =    45.0000000      (s)
+ D01: Grid Distance                          =    9.00000000      (km)
+ D01: Grid Distance Ratio dt/dx              =    5.00000000      (s/km)
+ D01: Ratio Including Maximum Map Factor     =    5.02918243      (s/km)
+ D01: NML defined reasonable_time_step_ratio =    6.00000000
+ GHG annual values from CAM trace gas file
+ Year =         2023 , Julian day =          187
+ CO2   =    4.2330194965078949E-004  volume mixing ratio
+ N2O   =    3.3444534794261780E-007  volume mixing ratio
+ CH4   =    1.9425131348743858E-006  volume mixing ratio
+ CFC11 =    2.0981431062137334E-010  volume mixing ratio
+ CFC12 =    4.8072227514597398E-010  volume mixing ratio
+INPUT LandUse = "MODIFIED_IGBP_MODIS_NOAH"
+ LANDUSE TYPE = "MODIFIED_IGBP_MODIS_NOAH" FOUND          41  CATEGORIES           2  SEASONS WATER CATEGORY =           17  SNOW CATEGORY =           15
+INITIALIZE THREE Noah LSM RELATED TABLES
+d01 2023-07-06_12:00:00  Input data is acceptable to use:
+ Tile Strategy is not specified. Assuming 1D-Y
+WRF TILE   1 IS      1 IE     19 JS     58 JE     75
+WRF NUMBER OF TILES =   1
+d01 2023-07-06_12:00:00  ----------------------------------------
+d01 2023-07-06_12:00:00  W-DAMPING  BEGINS AT W-COURANT NUMBER =    1.00000000
+d01 2023-07-06_12:00:00  ----------------------------------------
+ Tile Strategy is not specified. Assuming 1D-Y
+WRF TILE   1 IS      1 IE     30 JS     91 JE    120
+WRF NUMBER OF TILES =   1
+d01 2023-07-06_18:00:00  Input data is acceptable to use:
+d01 2023-07-07_00:00:00  Input data is acceptable to use:
+d01 2023-07-07_06:00:00  Input data is acceptable to use:
+d01 2023-07-07_12:00:00  Input data is acceptable to use:
+d01 2023-07-07_18:00:00  Input data is acceptable to use:
+d01 2023-07-08_00:00:00  Input data is acceptable to use:
+d01 2023-07-08_06:00:00  Input data is acceptable to use:
+d01 2023-07-08_12:00:00  Input data is acceptable to use:
+d01 2023-07-08_18:00:00  Input data is acceptable to use:
+d01 2023-07-09_00:00:00  Input data is acceptable to use:
+d01 2023-07-09_06:00:00  Input data is acceptable to use:
+d01 2023-07-09_12:00:00  Input data is acceptable to use:
+[gra788:19026:0:19026] Caught signal 11 (Segmentation fault: address not mapped to object at address 0xfffffffe07234760)
+==== backtrace (tid:  19026) ====
+ 0 0x0000000000020753 ucs_debug_print_backtrace()  /tmp/ebuser/avx2/UCX/1.8.0/GCCcore-9.3.0/ucx-1.8.0/src/ucs/debug/debug.c:653
+ 1 0x00000000000130f0 __funlockfile()  :0
+ 2 0x0000000002cd2e78 __module_sf_mynn_MOD_psih_unstable()  ???:0
+ 3 0x0000000002cd3da0 __module_sf_mynn_MOD_zolrib()  ???:0
+ 4 0x0000000002cd8a38 __module_sf_mynn_MOD_sfclay1d_mynn()  ???:0
+ 5 0x0000000002cda4f3 __module_sf_mynn_MOD_sfclay_mynn()  ???:0
+ 6 0x0000000002285f1b __module_surface_driver_MOD_surface_driver()  ???:0
+ 7 0x0000000001ad17bf __module_first_rk_step_part1_MOD_first_rk_step_part1()  ???:0
+ 8 0x000000000155508f solve_em_()  ???:0
+ 9 0x00000000013efab6 solve_interface_()  ???:0
+10 0x000000000047a8f9 __module_integrate_MOD_integrate()  ???:0
+11 0x000000000047af51 __module_integrate_MOD_integrate()  ???:0
+12 0x0000000000405ff2 __module_wrf_top_MOD_wrf_run()  ???:0
+13 0x0000000000405a7d main()  ???:0
+14 0x0000000000023e1b __libc_start_main()  /cvmfs/soft.computecanada.ca/gentoo/2020/usr/src/debug/sys-libs/glibc-2.30-r8/glibc-2.30/csu/../csu/libc-start.c:308
+15 0x0000000000405aba _start()  ???:0
+=================================
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x2ba1533c0730 in ???
+#1  0x2ba1533bf8d5 in ???
+#2  0x2ba153d430ef in ???
+	at /var/tmp/portage/sys-libs/glibc-2.30-r8/work/glibc-2.30/nptl/../sysdeps/unix/sysv/linux/x86_64/sigaction.c:0
+#3  0x2cd2e78 in ???
+#4  0x2cd3d9f in ???
+#5  0x2cd8a37 in ???
+#6  0x2cda4f2 in ???
+#7  0x2285f1a in ???
+#8  0x1ad17be in ???
+#9  0x155508e in ???
+#10  0x13efab5 in ???
+#11  0x47a8f8 in ???
+#12  0x47af50 in ???
+#13  0x405ff1 in ???
+#14  0x405a7c in ???
+#15  0x2ba153b94e1a in ???
+#16  0x405ab9 in ???
+#17  0xffffffffffffffff in ???

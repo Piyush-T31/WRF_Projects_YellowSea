@@ -1,0 +1,73 @@
+ starting wrf task            1  of           64
+ starting wrf task           33  of           64
+ starting wrf task           34  of           64
+ starting wrf task           35  of           64
+ starting wrf task           36  of           64
+ starting wrf task           37  of           64
+ starting wrf task           38  of           64
+ starting wrf task           39  of           64
+ starting wrf task           40  of           64
+ starting wrf task           41  of           64
+ starting wrf task           42  of           64
+ starting wrf task           43  of           64
+ starting wrf task           44  of           64
+ starting wrf task           45  of           64
+ starting wrf task           46  of           64
+ starting wrf task           47  of           64
+ starting wrf task           48  of           64
+ starting wrf task           49  of           64
+ starting wrf task           50  of           64
+ starting wrf task           51  of           64
+ starting wrf task           52  of           64
+ starting wrf task           53  of           64
+ starting wrf task           54  of           64
+ starting wrf task           55  of           64
+ starting wrf task           56  of           64
+ starting wrf task           57  of           64
+ starting wrf task           58  of           64
+ starting wrf task            2  of           64
+ starting wrf task            3  of           64
+ starting wrf task            4  of           64
+ starting wrf task            5  of           64
+ starting wrf task            6  of           64
+ starting wrf task            7  of           64
+ starting wrf task            8  of           64
+ starting wrf task            9  of           64
+ starting wrf task           10  of           64
+ starting wrf task           11  of           64
+ starting wrf task           12  of           64
+ starting wrf task           13  of           64
+ starting wrf task           14  of           64
+ starting wrf task           15  of           64
+ starting wrf task           16  of           64
+ starting wrf task           17  of           64
+ starting wrf task           18  of           64
+ starting wrf task           19  of           64
+ starting wrf task           20  of           64
+ starting wrf task           21  of           64
+ starting wrf task           22  of           64
+ starting wrf task           23  of           64
+ starting wrf task           24  of           64
+ starting wrf task           25  of           64
+ starting wrf task           26  of           64
+ starting wrf task           27  of           64
+ starting wrf task           28  of           64
+ starting wrf task           29  of           64
+ starting wrf task           30  of           64
+ starting wrf task           31  of           64
+ starting wrf task            0  of           64
+ starting wrf task           59  of           64
+ starting wrf task           60  of           64
+ starting wrf task           61  of           64
+ starting wrf task           62  of           64
+ starting wrf task           63  of           64
+ starting wrf task           32  of           64
+srun: error: gra793: task 40: Segmentation fault (core dumped)
+srun: launch/slurm: _step_signal: Terminating StepId=7685030.0
+slurmstepd: error: *** STEP 7685030.0 ON gra788 CANCELLED AT 2023-07-06T17:05:04 ***
+srun: error: gra788: task 24: Segmentation fault (core dumped)
+srun: error: gra793: tasks 33-39,41-63: Terminated
+srun: error: gra788: tasks 0-15,17-23,25-31: Terminated
+srun: error: gra788: task 16: Segmentation fault (core dumped)
+srun: error: gra793: task 32: Segmentation fault (core dumped)
+srun: Force Terminated StepId=7685030.0

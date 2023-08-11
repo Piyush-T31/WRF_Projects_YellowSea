@@ -1,0 +1,34 @@
+ starting wrf task            1  of           32
+ starting wrf task            2  of           32
+ starting wrf task            3  of           32
+ starting wrf task            4  of           32
+ starting wrf task            5  of           32
+ starting wrf task            6  of           32
+ starting wrf task            7  of           32
+ starting wrf task            8  of           32
+ starting wrf task            9  of           32
+ starting wrf task           10  of           32
+ starting wrf task           11  of           32
+ starting wrf task           12  of           32
+ starting wrf task           13  of           32
+ starting wrf task           14  of           32
+ starting wrf task           15  of           32
+ starting wrf task           16  of           32
+ starting wrf task           17  of           32
+ starting wrf task           18  of           32
+ starting wrf task           19  of           32
+ starting wrf task           20  of           32
+ starting wrf task           21  of           32
+ starting wrf task           22  of           32
+ starting wrf task           23  of           32
+ starting wrf task           24  of           32
+ starting wrf task           25  of           32
+ starting wrf task           26  of           32
+ starting wrf task           27  of           32
+ starting wrf task           28  of           32
+ starting wrf task           29  of           32
+ starting wrf task           30  of           32
+ starting wrf task           31  of           32
+ starting wrf task            0  of           32
+slurmstepd: error: *** STEP 7260825.0 ON gra794 CANCELLED AT 2023-06-20T21:17:58 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 7260825 ON gra794 CANCELLED AT 2023-06-20T21:17:58 DUE TO TIME LIMIT ***
