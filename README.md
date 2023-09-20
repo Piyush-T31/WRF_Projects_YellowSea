@@ -1,7 +1,7 @@
 
 # WRF Yellow Sea
 
-For this project, we run the wrf real case in a 2-nested domain over the yellow to observe marine fog and do forecasting for the FATIMA project. The FATIMA project essentially is a ship navigating through the yellow sea and collecting meaningful data to study marine fog.
+For this project, we run the wrf real case in a 2-nested domain over the yellow to observe marine fog and do forecasting for the FATIMA project. The Fog and Turbulence Interactions in the Marine Atmosphere (FATIMA) project essentially is a ship navigating through the yellow sea and collecting meaningful data to study marine fog.
 
 ### WRF-ARW Modeling System  ###
 
